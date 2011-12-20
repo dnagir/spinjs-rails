@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Spinjs::Rails::VERSION
   s.authors     = ["Dmytrii Nagirniak"]
   s.email       = ["dnagir@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/dnagir/spinjs-rails"
+  s.summary     = %q{A spinning activity indicator for Rails 3 with no images and CSS.}
+  s.description = %q{An animated CSS3 loading spinner with VML fallback for IE.}
 
   s.rubyforge_project = "spinjs-rails"
 
@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "rails", ">= 3.1"
-  # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
 end
