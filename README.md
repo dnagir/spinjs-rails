@@ -23,11 +23,11 @@ Require `spin`:
 // require spin
 ```
 
-or as jQuery plugin
+or as jQuery plugin:
 
 ```javascript
 // application.js
-// require spin-jquery
+// require jquery.spin
 
 // Then you can:
 
