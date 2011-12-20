@@ -50,7 +50,7 @@ $(".abc").spin({
 ```
 
 
-See the full usage details at on the [spin.js](http://fgnass.github.com/spin.js/) site
+See the full usage details on the [spin.js](http://fgnass.github.com/spin.js/) site.
 
 
 # License
