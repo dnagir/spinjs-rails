@@ -1,5 +1,5 @@
-// require jquery
-// require spin
+//= require jquery
+//= require spin
 
 (function($) {
 

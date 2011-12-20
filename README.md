@@ -20,14 +20,16 @@ Require `spin`:
 
 ```javascript
 // application.js
-// require spin
+
+//= require spin
 ```
 
 or as jQuery plugin:
 
 ```javascript
 // application.js
-// require jquery.spin
+
+//= require jquery.spin
 
 // Then you can:
 
