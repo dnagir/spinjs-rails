@@ -5,6 +5,7 @@ require "spinjs-rails/version"
 Gem::Specification.new do |s|
   s.name        = "spinjs-rails"
   s.version     = Spinjs::Rails::VERSION
+  s.license     = "MIT"
   s.authors     = ["Dmytrii Nagirniak"]
   s.email       = ["dnagir@gmail.com"]
   s.homepage    = "https://github.com/dnagir/spinjs-rails"
