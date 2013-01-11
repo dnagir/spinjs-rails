@@ -1,5 +1,5 @@
 module Spinjs
   module Rails
-    VERSION = "0.0.4"
+    VERSION = "1.2.7"
   end
 end
