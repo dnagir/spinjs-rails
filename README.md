@@ -24,7 +24,7 @@ Require `spin`:
 //= require spin
 ```
 
-or as jQuery plugin:
+or as [jQuery plugin](https://gist.github.com/1290439/):
 
 ```javascript
 // application.js
@@ -47,8 +47,11 @@ $(".abc").spin({
   trail: 60, // Afterglow percentage
   shadow: false // Whether to render a shadow
 });
-```
 
+// Use customisation shortcuts:
+$("#el").spin("small"); // Produces a 'small' Spinner using the text color of #el.
+$("#el").spin("large", "white"); // Produces a 'large' Spinner in white (or any valid CSS color).
+```
 
 See the full usage details on the [spin.js](http://fgnass.github.com/spin.js/) site.
 
