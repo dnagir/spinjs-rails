@@ -1,4 +1,4 @@
-//fgnass.github.com/spin.js#v1.2.6
+//fgnass.github.com/spin.js#v1.2.7
 !function(window, document, undefined) {
 
   /**
@@ -132,7 +132,8 @@
     zIndex: 2e9,          // Use a high z-index by default
     className: 'spinner', // CSS class to assign to the element
     top: 'auto',          // center vertically
-    left: 'auto'          // center horizontally
+    left: 'auto',         // center horizontally
+    position: 'relative'  // element position
   }
 
   /** The constructor */
@@ -148,7 +149,7 @@
       this.stop()
       var self = this
         , o = self.opts
-        , el = self.el = css(createEl(0, {className: o.className}), {position: 'relative', width: 0, zIndex: o.zIndex})
+        , el = self.el = css(createEl(0, {className: o.className}), {position: o.position, width: 0, zIndex: o.zIndex})
         , mid = o.radius+o.length+o.width
         , ep // element position
         , tp // target position
@@ -316,4 +317,4 @@
   else
     window.Spinner = Spinner
 
-}(window, document)
+}(window, document);
