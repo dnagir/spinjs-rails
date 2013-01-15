@@ -58,5 +58,9 @@ See the full usage details on the [spin.js](http://fgnass.github.com/spin.js/) s
 
 # License
 
-[MIT](http://www.opensource.org/licenses/mit-license.php) by [@dnagir](https://twitter.com/#!/dnagir).
+[MIT](http://www.opensource.org/licenses/mit-license.php) by [@dnagir](https://twitter.com/dnagir).
 
+
+# Thanks
+
+Thanks to [all contributors](https://github.com/dnagir/spinjs-rails/graphs/contributors) and the author of the spin.js
