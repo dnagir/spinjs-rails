@@ -1,4 +1,3 @@
-//= require jquery
 //= require spin
 
 (function($) {
