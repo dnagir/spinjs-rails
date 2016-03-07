@@ -24,11 +24,12 @@ Require `spin`:
 //= require spin
 ```
 
-or as [jQuery plugin](https://gist.github.com/1290439/):
+and if you want the [jQuery plugin](https://gist.github.com/1290439/), you also need to add that:
 
 ```javascript
 // application.js
 
+//= require spin
 //= require jquery.spin
 
 // Then you can:
